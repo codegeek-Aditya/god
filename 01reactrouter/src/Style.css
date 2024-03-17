@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 10vh;
+  width: 100vw;
+}
+.navbar {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.listLink {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.4rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  background-color: transparent;
+}
